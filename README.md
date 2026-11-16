@@ -12,7 +12,7 @@ The full analysis is in **report/endohedral_c60_network_feasibility_report.md**.
    the delivered OUTCAR, OSZICAR and CONTCAR files reproduces every final force, every
    SCF-at-NELM count, every termination mode and the 90-bond cage check.
 2. **It is not evidence of endohedral stability.** All 32 metals stayed within 0.001 A
-   of the exact cage centre (largest 0.00093 A, Fe); 18 of the 20 "passing" systems
+   of the exact cage centre (largest 0.00095 A, Fe); 18 of the 20 "passing" systems
    stopped after five or fewer ionic steps, and four stopped after one step. An atom at
    the inversion centre of an Ih-symmetric C60 has zero force by symmetry, so a
    force-based relaxator cannot distinguish a minimum from a saddle or a maximum.
