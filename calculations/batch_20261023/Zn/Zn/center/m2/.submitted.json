@@ -1,0 +1,11 @@
+{
+  "job_id": "29036500",
+  "case": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Zn/Zn/center/m2",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--chdir=/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Zn/Zn/center/m2",
+    "--export=ALL",
+    "/public/home/xinyuez2025/C60/single_cage_v2/submit.slurm"
+  ]
+}

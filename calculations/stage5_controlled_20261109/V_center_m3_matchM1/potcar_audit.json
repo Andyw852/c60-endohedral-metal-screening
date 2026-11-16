@@ -1,0 +1,36 @@
+{
+  "species": [
+    "C",
+    "V"
+  ],
+  "counts": [
+    60,
+    1
+  ],
+  "ENCUT_eV": 520.0,
+  "max_ENMAX_eV": 400.0,
+  "neutral_valence_electrons": 253.0,
+  "sha256": "fa484effe3ab9965ad17d0fda2d75ec754889bc03416d162866f556523f1896f",
+  "datasets": [
+    {
+      "element": "C",
+      "dataset": "C",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.C.gz",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95",
+      "ENMAX_eV": 400.0,
+      "ZVAL": 4.0,
+      "count": 60
+    },
+    {
+      "element": "V",
+      "dataset": "V_sv",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.V_sv.gz",
+      "title": "PAW_PBE V_sv 02Aug2007",
+      "sha256": "5c2e894a17530853db616eb76e59147e643e0698a6c55875a3dffd96a7885e93",
+      "ENMAX_eV": 263.673,
+      "ZVAL": 13.0,
+      "count": 1
+    }
+  ]
+}

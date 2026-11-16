@@ -1,0 +1,1 @@
+cmdModule.c(567):ERROR:50: Cannot open file '/opt/hpc/software/modules/compiler/rocm/3.3' for 'reading'

@@ -1,0 +1,1 @@
+verified_existing: /public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Co/Co/center/m3 | C -> Co | ENCUT 520 eV | max ENMAX 400 eV

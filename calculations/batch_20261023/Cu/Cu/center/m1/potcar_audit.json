@@ -1,0 +1,36 @@
+{
+  "species": [
+    "C",
+    "Cu"
+  ],
+  "counts": [
+    60,
+    1
+  ],
+  "ENCUT_eV": 520.0,
+  "max_ENMAX_eV": 400.0,
+  "neutral_valence_electrons": 251.0,
+  "sha256": "10e27741fc6c949e598ce929a711c7117ea2c43f86a1c2fa31902b6a1a163719",
+  "datasets": [
+    {
+      "element": "C",
+      "dataset": "C",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.C.gz",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95",
+      "ENMAX_eV": 400.0,
+      "ZVAL": 4.0,
+      "count": 60
+    },
+    {
+      "element": "Cu",
+      "dataset": "Cu",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.Cu.gz",
+      "title": "PAW_PBE Cu 22Jun2005",
+      "sha256": "0e71e558f37a4e8407882b4609ceaae59938afaad9ced71dfe8490308a0ab630",
+      "ENMAX_eV": 295.446,
+      "ZVAL": 11.0,
+      "count": 1
+    }
+  ]
+}

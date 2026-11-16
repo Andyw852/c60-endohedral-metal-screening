@@ -1,0 +1,2 @@
+/public/home/xinyuez2025/C60/single_cage_v2/auto_potcar.py:61: DeprecationWarning: 'maxsplit' is passed as positional argument
+  text="\n".join(re.split(r"[!#]",l,1)[0] for l in text.splitlines())

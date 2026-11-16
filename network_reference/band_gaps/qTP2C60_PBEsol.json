@@ -1,0 +1,79 @@
+{
+  "step": "step3_band_plot",
+  "step3_dir": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP2C60/step3_PBE_WAVECAR",
+  "out_dir": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP2C60/step3_band_plot",
+  "checked_at": "2026-07-24T00:41:15",
+  "status": "ok",
+  "functional": "pbesol",
+  "functional_display": "PBEsol",
+  "soc": false,
+  "nelect": 240,
+  "n_path_kpts": 57,
+  "band_source": "vasprun.xml (kpoints_opt)",
+  "gap_eV": 0.9288,
+  "gap_type": "indirect",
+  "min_direct_gap_eV": 1.1008,
+  "vbm": {
+    "E_eV": -2.3378,
+    "k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cbm": {
+    "E_eV": -1.409,
+    "k_frac": [
+      -0.5,
+      0.0,
+      0.0
+    ]
+  },
+  "efermi_scf_eV": -2.1089,
+  "mesh_cross_check": {
+    "n_mesh_kpts": 9,
+    "mesh_vbm_eV": -2.3378,
+    "mesh_cbm_eV": -1.409,
+    "mesh_vbm_k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mesh_cbm_k_frac": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "gap_mesh_eV": 0.9288,
+    "gap_path_plus_mesh_eV": 0.9288,
+    "verdict": "consistent"
+  },
+  "mesh_cross_check_warning": null,
+  "energy_zero": "VBM",
+  "inputs_copied": [
+    "EIGENVAL",
+    "vasprun.xml",
+    "POSCAR",
+    "INCAR",
+    "KPOINTS",
+    "KPOINTS_OPT",
+    "kpath.json",
+    "workflow_method.txt"
+  ],
+  "files": {
+    "dat": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP2C60/step3_band_plot/band.dat",
+    "klabels": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP2C60/step3_band_plot/band_klabels.txt",
+    "png": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP2C60/step3_band_plot/band.png",
+    "summary": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP2C60/step3_band_plot/band_summary.json"
+  },
+  "labels_found": [
+    "Γ",
+    "X",
+    "S",
+    "Y",
+    "Γ"
+  ],
+  "kpath_source": "kpath.json (seekpath)",
+  "kpath_method": "seekpath",
+  "kpath_note": "seekpath / HPKOT (Hinuma et al.) | 空间群 Pmmm (#47) | det M = -1"
+}

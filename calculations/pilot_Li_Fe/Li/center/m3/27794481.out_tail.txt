@@ -1,0 +1,1 @@
+verified_existing: /public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Li/center/m3 | C -> Li | ENCUT 520 eV | max ENMAX 400 eV

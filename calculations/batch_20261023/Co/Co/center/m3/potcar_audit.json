@@ -1,0 +1,36 @@
+{
+  "species": [
+    "C",
+    "Co"
+  ],
+  "counts": [
+    60,
+    1
+  ],
+  "ENCUT_eV": 520.0,
+  "max_ENMAX_eV": 400.0,
+  "neutral_valence_electrons": 249.0,
+  "sha256": "30bfbb5e2b555f542386273945ea1cb7d59ad357583048e1d23e2cd7ba4b673f",
+  "datasets": [
+    {
+      "element": "C",
+      "dataset": "C",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.C.gz",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95",
+      "ENMAX_eV": 400.0,
+      "ZVAL": 4.0,
+      "count": 60
+    },
+    {
+      "element": "Co",
+      "dataset": "Co",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.Co.gz",
+      "title": "PAW_PBE Co 02Aug2007",
+      "sha256": "0e690c60710354995174544f52f9f2c30879afabeffe3b3fbd4001cb294e56d4",
+      "ENMAX_eV": 267.968,
+      "ZVAL": 9.0,
+      "count": 1
+    }
+  ]
+}

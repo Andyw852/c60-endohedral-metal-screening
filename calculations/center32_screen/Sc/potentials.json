@@ -1,0 +1,14 @@
+[
+  {
+    "dataset": "C",
+    "title": "PAW_PBE C 08Apr2002",
+    "ENMAX": 400.0,
+    "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95"
+  },
+  {
+    "dataset": "Sc_sv",
+    "title": "PAW_PBE Sc_sv 07Sep2000",
+    "ENMAX": 222.66,
+    "sha256": "9aad5a0618293b7e22b0823afd8bf80ef5c5e525eb8618ba91672918e18a06fa"
+  }
+]

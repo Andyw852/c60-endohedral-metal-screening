@@ -1,0 +1,3 @@
+             JOBID                 NAME        STATE         TIME WORK_DIR NODELIST(REASON)
+          29435920          NMR_EVAL_V3      RUNNING        12:06 /public/home/xinyuez2025 node294
+

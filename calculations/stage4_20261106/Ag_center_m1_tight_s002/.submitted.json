@@ -1,0 +1,11 @@
+{
+  "job_id": "29227092",
+  "case": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Ag_center_m1_tight_s002",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--chdir=/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Ag_center_m1_tight_s002",
+    "--export=ALL",
+    "/public/home/xinyuez2025/C60/single_cage_v2/submit.slurm"
+  ]
+}

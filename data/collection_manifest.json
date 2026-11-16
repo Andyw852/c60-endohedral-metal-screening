@@ -1,0 +1,1065 @@
+[
+  {
+    "path": "center32_screen/Li",
+    "roles": [
+      {
+        "metal": "Li",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "pilot_Li_Fe/Li/center/m3",
+    "roles": [
+      {
+        "metal": "Li",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Li/center/m3",
+          "Fmax": 0.0012687493656747182,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 398907,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6603514,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 9794,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "27794481"
+  },
+  {
+    "path": "center32_screen/Be",
+    "roles": [
+      {
+        "metal": "Be",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 130246,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 102938,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 4232,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361123"
+  },
+  {
+    "path": "center32_screen/Na",
+    "roles": [
+      {
+        "metal": "Na",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "batch_20261016/Na/Na/center/m1",
+    "roles": [
+      {
+        "metal": "Na",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261016/Na/Na/center/m1",
+          "Fmax": 0.001245239712344575,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 425644,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6609795,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 10817,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "28925273"
+  },
+  {
+    "path": "center32_screen/Mg",
+    "roles": [
+      {
+        "metal": "Mg",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "Mg_center_m0_tight_s002",
+    "roles": [
+      {
+        "metal": "Mg",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/Mg_center_m0_tight_s002",
+          "Fmax": 0.002759323698263761,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 269145,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6571081,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 6920,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "28992057"
+  },
+  {
+    "path": "center32_screen/Al",
+    "roles": [
+      {
+        "metal": "Al",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 315471,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 154671,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 7889,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361124"
+  },
+  {
+    "path": "center32_screen/K",
+    "roles": [
+      {
+        "metal": "K",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "batch_20261021/K/K/center/m1",
+    "roles": [
+      {
+        "metal": "K",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/K/K/center/m1",
+          "Fmax": 0.0012153773911834959,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 430760,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6610937,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 11003,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "28992075"
+  },
+  {
+    "path": "center32_screen/Ca",
+    "roles": [
+      {
+        "metal": "Ca",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 3653981,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 881028,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 123195,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361125"
+  },
+  {
+    "path": "center32_screen/Sc",
+    "roles": [
+      {
+        "metal": "Sc",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 11514222,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 2804561,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 369480,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361126"
+  },
+  {
+    "path": "center32_screen/Ti",
+    "roles": [
+      {
+        "metal": "Ti",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 6582673,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 1621846,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 209400,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361127"
+  },
+  {
+    "path": "center32_screen/V",
+    "roles": [
+      {
+        "metal": "V",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "stage5_controlled_20261109/V_center_m3_matchM1",
+    "roles": [
+      {
+        "metal": "V",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage5_controlled_20261109/V_center_m3_matchM1",
+          "Fmax": 0.004189029631275005,
+          "historical_SCF_at_limit": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 12605542,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 9381887,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 401651,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29262733"
+  },
+  {
+    "path": "center32_screen/Cr",
+    "roles": [
+      {
+        "metal": "Cr",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 9397566,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 2130947,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 340378,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361128"
+  },
+  {
+    "path": "center32_screen/Mn",
+    "roles": [
+      {
+        "metal": "Mn",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 11111383,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 2637107,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 369594,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361129"
+  },
+  {
+    "path": "center32_screen/Fe",
+    "roles": [
+      {
+        "metal": "Fe",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "pilot_Li_Fe/Fe/center/m1",
+    "roles": [
+      {
+        "metal": "Fe",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Fe/center/m1",
+          "Fmax": 0.017833944004196044,
+          "historical_SCF_at_limit": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            14
+          ],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 5732122,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 7786056,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 198241,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "27794484"
+  },
+  {
+    "path": "center32_screen/Co",
+    "roles": [
+      {
+        "metal": "Co",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "batch_20261023/Co/Co/center/m3",
+    "roles": [
+      {
+        "metal": "Co",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Co/Co/center/m3",
+          "Fmax": 0.007364601928176431,
+          "historical_SCF_at_limit": [
+            1
+          ],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 1676273,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6887767,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 52550,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29036492"
+  },
+  {
+    "path": "center32_screen/Ni",
+    "roles": [
+      {
+        "metal": "Ni",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 10760116,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 2470363,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 392226,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361130"
+  },
+  {
+    "path": "center32_screen/Cu",
+    "roles": [
+      {
+        "metal": "Cu",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "batch_20261023/Cu/Cu/center/m1",
+    "roles": [
+      {
+        "metal": "Cu",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Cu/Cu/center/m1",
+          "Fmax": 0.01021024106740874,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 201525,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6552923,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 6371,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29036495"
+  },
+  {
+    "path": "center32_screen/Zn",
+    "roles": [
+      {
+        "metal": "Zn",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "batch_20261023/Zn/Zn/center/m2",
+    "roles": [
+      {
+        "metal": "Zn",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Zn/Zn/center/m2",
+          "Fmax": 0.015967530900239398,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 152331,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6542074,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 4604,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29036500"
+  },
+  {
+    "path": "center32_screen/Ga",
+    "roles": [
+      {
+        "metal": "Ga",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 313570,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 154100,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 7796,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361131"
+  },
+  {
+    "path": "center32_screen/Rb",
+    "roles": [
+      {
+        "metal": "Rb",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 314180,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 154100,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 7796,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361132"
+  },
+  {
+    "path": "center32_screen/Sr",
+    "roles": [
+      {
+        "metal": "Sr",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "batch_20261021/Sr/Sr/center/m2",
+    "roles": [
+      {
+        "metal": "Sr",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Sr/Sr/center/m2",
+          "Fmax": 0.0027826024425706237,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 456124,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6616647,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 11933,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "28992085"
+  },
+  {
+    "path": "center32_screen/Y",
+    "roles": [
+      {
+        "metal": "Y",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 2019713,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 593656,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 52788,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361134"
+  },
+  {
+    "path": "center32_screen/Zr",
+    "roles": [
+      {
+        "metal": "Zr",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "stage4_20261106/Zr_center_m2_tight_s002",
+    "roles": [
+      {
+        "metal": "Zr",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Zr_center_m2_tight_s002",
+          "Fmax": 0.004963402781247961,
+          "historical_SCF_at_limit": [
+            1,
+            2,
+            3,
+            4,
+            19,
+            29
+          ],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 13819275,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 9649515,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 441551,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29227090"
+  },
+  {
+    "path": "center32_screen/Nb",
+    "roles": [
+      {
+        "metal": "Nb",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 4194286,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 1104190,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 126201,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361135"
+  },
+  {
+    "path": "center32_screen/Mo",
+    "roles": [
+      {
+        "metal": "Mo",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "stage4_20261106/Mo_center_m4_tight_s002",
+    "roles": [
+      {
+        "metal": "Mo",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Mo_center_m4_tight_s002",
+          "Fmax": 0.00024408060164625949,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 487745,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6623209,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 12956,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29227091"
+  },
+  {
+    "path": "center32_screen/Tc",
+    "roles": [
+      {
+        "metal": "Tc",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 4459979,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 1157521,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 140956,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361136"
+  },
+  {
+    "path": "center32_screen/Ru",
+    "roles": [
+      {
+        "metal": "Ru",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 618696,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 219765,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 18443,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361137"
+  },
+  {
+    "path": "center32_screen/Rh",
+    "roles": [
+      {
+        "metal": "Rh",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 638137,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 219308,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 20777,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361138"
+  },
+  {
+    "path": "center32_screen/Pd",
+    "roles": [
+      {
+        "metal": "Pd",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 141414,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 105222,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 4604,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361139"
+  },
+  {
+    "path": "center32_screen/Ag",
+    "roles": [
+      {
+        "metal": "Ag",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": false
+  },
+  {
+    "path": "stage4_20261106/Ag_center_m1_tight_s002",
+    "roles": [
+      {
+        "metal": "Ag",
+        "role": "reused_source",
+        "original_record": {
+          "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Ag_center_m1_tight_s002",
+          "Fmax": 0.0019262543026817617,
+          "historical_SCF_at_limit": [],
+          "note": "center-origin relaxed candidate; not vibrational stability"
+        }
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 368608,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 6596372,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 8585,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29227092"
+  },
+  {
+    "path": "center32_screen/Cd",
+    "roles": [
+      {
+        "metal": "Cd",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 252808,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 137598,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 6245,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361140"
+  },
+  {
+    "path": "center32_screen/In",
+    "roles": [
+      {
+        "metal": "In",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 316376,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 154671,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 7889,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361141"
+  },
+  {
+    "path": "center32_screen/Sn",
+    "roles": [
+      {
+        "metal": "Sn",
+        "role": "new_attempt"
+      }
+    ],
+    "exists": true,
+    "OUTCAR": {
+      "bytes_at_start": 1123044,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasprun.xml": {
+      "bytes_at_start": 373708,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "vasp.log": {
+      "bytes_at_start": 26606,
+      "short_read": false,
+      "changed_during_read": false
+    },
+    "job_id": "29361142"
+  }
+]

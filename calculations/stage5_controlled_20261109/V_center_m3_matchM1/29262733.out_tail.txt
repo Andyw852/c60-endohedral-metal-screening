@@ -1,0 +1,1 @@
+verified_existing: /public/home/xinyuez2025/C60/single_cage_v2/stage5_controlled_20261109/V_center_m3_matchM1 | C -> V | ENCUT 520 eV | max ENMAX 400 eV

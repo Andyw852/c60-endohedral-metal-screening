@@ -1,0 +1,36 @@
+{
+  "species": [
+    "C",
+    "Zr"
+  ],
+  "counts": [
+    60,
+    1
+  ],
+  "ENCUT_eV": 520.0,
+  "max_ENMAX_eV": 400.0,
+  "neutral_valence_electrons": 252.0,
+  "sha256": "2da0e2497cfce6c8f47e2bfe6bf1fe56f5e79a2978d06eb29da1b4978956952b",
+  "datasets": [
+    {
+      "element": "C",
+      "dataset": "C",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.C.gz",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95",
+      "ENMAX_eV": 400.0,
+      "ZVAL": 4.0,
+      "count": 60
+    },
+    {
+      "element": "Zr",
+      "dataset": "Zr_sv",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.Zr_sv.gz",
+      "title": "PAW_PBE Zr_sv 04Jan2005",
+      "sha256": "25aed69cb10325f9d37c5c68912b61a17387d1f8e4f1d804860ffa10c8a4bf76",
+      "ENMAX_eV": 229.898,
+      "ZVAL": 12.0,
+      "count": 1
+    }
+  ]
+}

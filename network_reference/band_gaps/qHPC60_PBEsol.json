@@ -1,0 +1,79 @@
+{
+  "step": "step3_band_plot",
+  "step3_dir": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qHPC60/step3_PBE_WAVECAR",
+  "out_dir": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qHPC60/step3_band_plot",
+  "checked_at": "2026-07-26T00:22:11",
+  "status": "ok",
+  "functional": "pbesol",
+  "functional_display": "PBEsol",
+  "soc": false,
+  "nelect": 480,
+  "n_path_kpts": 45,
+  "band_source": "vasprun.xml (kpoints_opt)",
+  "gap_eV": 0.8752,
+  "gap_type": "direct",
+  "min_direct_gap_eV": 0.8752,
+  "vbm": {
+    "E_eV": -2.9376,
+    "k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cbm": {
+    "E_eV": -2.0624,
+    "k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "efermi_scf_eV": -2.6794,
+  "mesh_cross_check": {
+    "n_mesh_kpts": 6,
+    "mesh_vbm_eV": -2.9376,
+    "mesh_cbm_eV": -2.0624,
+    "mesh_vbm_k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "mesh_cbm_k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gap_mesh_eV": 0.8752,
+    "gap_path_plus_mesh_eV": 0.8752,
+    "verdict": "consistent"
+  },
+  "mesh_cross_check_warning": null,
+  "energy_zero": "VBM",
+  "inputs_copied": [
+    "EIGENVAL",
+    "vasprun.xml",
+    "POSCAR",
+    "INCAR",
+    "KPOINTS",
+    "KPOINTS_OPT",
+    "kpath.json",
+    "workflow_method.txt"
+  ],
+  "files": {
+    "dat": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qHPC60/step3_band_plot/band.dat",
+    "klabels": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qHPC60/step3_band_plot/band_klabels.txt",
+    "png": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qHPC60/step3_band_plot/band.png",
+    "summary": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qHPC60/step3_band_plot/band_summary.json"
+  },
+  "labels_found": [
+    "Γ",
+    "X",
+    "S",
+    "Y",
+    "Γ"
+  ],
+  "kpath_source": "kpath.json (native_2d)",
+  "kpath_method": "native_2d",
+  "kpath_note": "2D 原生路径 | rectangular | a=9.1242 Ang, b=15.7515 Ang, γ=90.00° | 真空轴=c | 约化原胞面内基矢 |（dim=2D 且 AUTO_2D_KPATH=True，已从 seekpath 自动切换）"
+}

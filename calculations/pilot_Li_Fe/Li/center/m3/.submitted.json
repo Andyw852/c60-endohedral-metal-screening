@@ -1,0 +1,11 @@
+{
+  "job_id": "27794481",
+  "case": "/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Li/center/m3",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--chdir=/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Li/center/m3",
+    "--export=ALL",
+    "/public/home/xinyuez2025/C60/single_cage_v2/submit.slurm"
+  ]
+}

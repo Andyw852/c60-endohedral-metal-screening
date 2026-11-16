@@ -1,0 +1,250 @@
+{
+  "metals": [
+    "Li",
+    "Be",
+    "Na",
+    "Mg",
+    "Al",
+    "K",
+    "Ca",
+    "Sc",
+    "Ti",
+    "V",
+    "Cr",
+    "Mn",
+    "Fe",
+    "Co",
+    "Ni",
+    "Cu",
+    "Zn",
+    "Ga",
+    "Rb",
+    "Sr",
+    "Y",
+    "Zr",
+    "Nb",
+    "Mo",
+    "Tc",
+    "Ru",
+    "Rh",
+    "Pd",
+    "Ag",
+    "Cd",
+    "In",
+    "Sn"
+  ],
+  "reused": {
+    "V": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage5_controlled_20261109/V_center_m3_matchM1",
+      "Fmax": 0.004189029631275005,
+      "historical_SCF_at_limit": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Mo": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Mo_center_m4_tight_s002",
+      "Fmax": 0.00024408060164625949,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Mg": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/Mg_center_m0_tight_s002",
+      "Fmax": 0.002759323698263761,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Cu": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Cu/Cu/center/m1",
+      "Fmax": 0.01021024106740874,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Zn": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Zn/Zn/center/m2",
+      "Fmax": 0.015967530900239398,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Co": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Co/Co/center/m3",
+      "Fmax": 0.007364601928176431,
+      "historical_SCF_at_limit": [
+        1
+      ],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Li": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Li/center/m3",
+      "Fmax": 0.0012687493656747182,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Fe": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Fe/center/m1",
+      "Fmax": 0.017833944004196044,
+      "historical_SCF_at_limit": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        14
+      ],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "K": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/K/K/center/m1",
+      "Fmax": 0.0012153773911834959,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Sr": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Sr/Sr/center/m2",
+      "Fmax": 0.0027826024425706237,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Zr": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Zr_center_m2_tight_s002",
+      "Fmax": 0.004963402781247961,
+      "historical_SCF_at_limit": [
+        1,
+        2,
+        3,
+        4,
+        19,
+        29
+      ],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Ag": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Ag_center_m1_tight_s002",
+      "Fmax": 0.0019262543026817617,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    },
+    "Na": {
+      "source": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261016/Na/Na/center/m1",
+      "Fmax": 0.001245239712344575,
+      "historical_SCF_at_limit": [],
+      "note": "center-origin relaxed candidate; not vibrational stability"
+    }
+  },
+  "active_center_jobs": {},
+  "scan_notes": [
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Y/Y/center/m1",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Y/Y/center/m1/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Y/Y/center/m3",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Y/Y/center/m3/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Zr/Zr/center/m0",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Zr/Zr/center/m0/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Zr/Zr/center/m2",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Zr/Zr/center/m2/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Zr/Zr/center/m4",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Zr/Zr/center/m4/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Ag/Ag/center/m1",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Ag/Ag/center/m1/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Ag/Ag/center/m3",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Ag/Ag/center/m3/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/V/V/center/m1",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/V/V/center/m1/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/V/V/center/m3",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/V/V/center/m3/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/V/V/center/m5",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/V/V/center/m5/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m0",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m0/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m2",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m2/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m4",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m4/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m6",
+      "reason": "[Errno 2] No such file or directory: '/public/home/xinyuez2025/C60/single_cage_v2/batch_20261028/Mo/Mo/center/m6/OUTCAR'"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/stage5_controlled_20261109/Zr_center_m2_matchM0",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Ni/Ni/center/m0",
+      "reason": "final SCF incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Ni/Ni/center/m2",
+      "reason": "final SCF incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261023/Co/Co/center/m1",
+      "reason": "final SCF incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/pilot_Li_Fe/Fe/center/m3",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Sc/Sc/center/m1",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Sc/Sc/center/m3",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Ti/Ti/center/m2",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Ti/Ti/center/m4",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261021/Ti/Ti/center/m0",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Y_center_m1_tight_s002",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261016/Ca/Ca/center/m0",
+      "reason": "optimization incomplete"
+    },
+    {
+      "path": "/public/home/xinyuez2025/C60/single_cage_v2/batch_20261016/Ca/Ca/center/m2",
+      "reason": "optimization incomplete"
+    }
+  ]
+}

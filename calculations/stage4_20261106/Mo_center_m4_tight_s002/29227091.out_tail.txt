@@ -1,0 +1,1 @@
+verified_existing: /public/home/xinyuez2025/C60/single_cage_v2/stage4_20261106/Mo_center_m4_tight_s002 | C -> Mo | ENCUT 520 eV | max ENMAX 400 eV

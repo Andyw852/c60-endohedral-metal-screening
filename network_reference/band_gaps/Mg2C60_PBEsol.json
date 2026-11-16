@@ -1,0 +1,84 @@
+{
+  "step": "step3_band_plot",
+  "step3_dir": "/public/home/wangchao/Fullerene_Network/work/Mg2C60/step3_PBE_WAVECAR",
+  "out_dir": "/public/home/wangchao/Fullerene_Network/work/Mg2C60/step3_band_plot",
+  "checked_at": "2026-07-24T03:16:58",
+  "status": "ok",
+  "functional": "pbesol",
+  "functional_display": "PBEsol",
+  "soc": false,
+  "nelect": 244,
+  "n_path_kpts": 144,
+  "band_source": "vasprun.xml (kpoints_opt)",
+  "gap_eV": 0.0552,
+  "gap_type": "indirect",
+  "min_direct_gap_eV": 0.4701,
+  "vbm": {
+    "E_eV": 4.2118,
+    "k_frac": [
+      0.5,
+      -0.5,
+      -0.5
+    ]
+  },
+  "cbm": {
+    "E_eV": 4.267,
+    "k_frac": [
+      0.0,
+      -0.5,
+      0.0
+    ]
+  },
+  "efermi_scf_eV": 4.2303,
+  "mesh_cross_check": {
+    "n_mesh_kpts": 24,
+    "mesh_vbm_eV": 4.2118,
+    "mesh_cbm_eV": 4.267,
+    "mesh_vbm_k_frac": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "mesh_cbm_k_frac": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "gap_mesh_eV": 0.0551,
+    "gap_path_plus_mesh_eV": 0.0551,
+    "verdict": "consistent"
+  },
+  "mesh_cross_check_warning": null,
+  "energy_zero": "VBM",
+  "inputs_copied": [
+    "EIGENVAL",
+    "vasprun.xml",
+    "POSCAR",
+    "INCAR",
+    "KPOINTS",
+    "KPOINTS_OPT",
+    "kpath.json",
+    "workflow_method.txt"
+  ],
+  "files": {
+    "dat": "/public/home/wangchao/Fullerene_Network/work/Mg2C60/step3_band_plot/band.dat",
+    "klabels": "/public/home/wangchao/Fullerene_Network/work/Mg2C60/step3_band_plot/band_klabels.txt",
+    "png": "/public/home/wangchao/Fullerene_Network/work/Mg2C60/step3_band_plot/band.png",
+    "summary": "/public/home/wangchao/Fullerene_Network/work/Mg2C60/step3_band_plot/band_summary.json"
+  },
+  "labels_found": [
+    "Γ",
+    "C|C₂",
+    "Y₂",
+    "Γ",
+    "M₂",
+    "D|D₂",
+    "A",
+    "Γ|L₂",
+    "Γ",
+    "V₂"
+  ],
+  "kpath_source": "kpath.json (seekpath)",
+  "kpath_method": "seekpath",
+  "kpath_note": "seekpath / HPKOT (Hinuma et al.) | 空间群 C2/m (#12) | det M = -1"
+}

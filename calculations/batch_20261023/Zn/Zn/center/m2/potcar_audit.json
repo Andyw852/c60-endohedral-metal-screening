@@ -1,0 +1,36 @@
+{
+  "species": [
+    "C",
+    "Zn"
+  ],
+  "counts": [
+    60,
+    1
+  ],
+  "ENCUT_eV": 520.0,
+  "max_ENMAX_eV": 400.0,
+  "neutral_valence_electrons": 252.0,
+  "sha256": "4dc637fd337c3454fa69ecfe37cec40f4c50f1c20b47ffa36fcf597e084f8bb2",
+  "datasets": [
+    {
+      "element": "C",
+      "dataset": "C",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.C.gz",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95",
+      "ENMAX_eV": 400.0,
+      "ZVAL": 4.0,
+      "count": 60
+    },
+    {
+      "element": "Zn",
+      "dataset": "Zn",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.Zn.gz",
+      "title": "PAW_PBE Zn 06Sep2000",
+      "sha256": "501fddbd8274dd8e9725d4f3de27861d7f1e553a7e18441bc79fed8f346e7f23",
+      "ENMAX_eV": 276.723,
+      "ZVAL": 12.0,
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "step": "step3_band_plot",
+  "step3_dir": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP1C60/step3_PBE_WAVECAR",
+  "out_dir": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP1C60/step3_band_plot",
+  "checked_at": "2026-07-25T18:21:02",
+  "status": "ok",
+  "functional": "pbesol",
+  "functional_display": "PBEsol",
+  "soc": false,
+  "nelect": 240,
+  "n_path_kpts": 53,
+  "band_source": "vasprun.xml (kpoints_opt)",
+  "gap_eV": 0.8551,
+  "gap_type": "indirect",
+  "min_direct_gap_eV": 0.9685,
+  "vbm": {
+    "E_eV": -3.1981,
+    "k_frac": [
+      0.5,
+      -0.0,
+      0.0
+    ]
+  },
+  "cbm": {
+    "E_eV": -2.343,
+    "k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "efermi_scf_eV": -2.9822,
+  "mesh_cross_check": {
+    "n_mesh_kpts": 6,
+    "mesh_vbm_eV": -3.1982,
+    "mesh_cbm_eV": -2.343,
+    "mesh_vbm_k_frac": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "mesh_cbm_k_frac": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "gap_mesh_eV": 0.8552,
+    "gap_path_plus_mesh_eV": 0.8551,
+    "verdict": "consistent"
+  },
+  "mesh_cross_check_warning": null,
+  "energy_zero": "VBM",
+  "inputs_copied": [
+    "EIGENVAL",
+    "vasprun.xml",
+    "POSCAR",
+    "INCAR",
+    "KPOINTS",
+    "KPOINTS_OPT",
+    "kpath.json",
+    "workflow_method.txt"
+  ],
+  "files": {
+    "dat": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP1C60/step3_band_plot/band.dat",
+    "klabels": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP1C60/step3_band_plot/band_klabels.txt",
+    "png": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP1C60/step3_band_plot/band.png",
+    "summary": "/public/home/wangchao/Fullerene_Network/fullerene_network/test/qTP1C60/step3_band_plot/band_summary.json"
+  },
+  "labels_found": [
+    "Γ",
+    "X",
+    "S",
+    "Y",
+    "Γ"
+  ],
+  "kpath_source": "kpath.json (native_2d)",
+  "kpath_method": "native_2d",
+  "kpath_note": "2D 原生路径 | rectangular | a=9.0495 Ang, b=10.0905 Ang, γ=90.00° | 真空轴=c | 约化原胞面内基矢 | 注意：真空轴与面内不垂直，k 点第 3 分量非零(4.38e-08)，这是正确的 |（dim=2D 且 AUTO_2D_KPATH=True，已从 seekpath 自动切换）"
+}

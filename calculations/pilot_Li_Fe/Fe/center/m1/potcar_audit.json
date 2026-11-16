@@ -1,0 +1,34 @@
+{
+  "species": [
+    "C",
+    "Fe"
+  ],
+  "counts": [
+    60,
+    1
+  ],
+  "ENCUT_eV": 520.0,
+  "max_ENMAX_eV": 400.0,
+  "neutral_valence_electrons": 248.0,
+  "sha256": "894cef1be83f483e47ded1647fa145041a18db26d6b381287829e1f0725ea6e3",
+  "datasets": [
+    {
+      "element": "C",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.C.gz",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95",
+      "ENMAX_eV": 400.0,
+      "ZVAL": 4.0,
+      "count": 60
+    },
+    {
+      "element": "Fe",
+      "path": "/public/home/xinyuez2025/vasp/pmg_potcars/POT_GGA_PAW_PBE_54/POTCAR.Fe.gz",
+      "title": "PAW_PBE Fe 06Sep2000",
+      "sha256": "cd5a22d9368cc8b5cc476bea79732366149640da08ac9009b0e1b7fc627eea28",
+      "ENMAX_eV": 267.882,
+      "ZVAL": 8.0,
+      "count": 1
+    }
+  ]
+}
