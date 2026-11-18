@@ -5,6 +5,8 @@ screening campaign and a feasibility assessment for using endohedral M@C60 units
 building blocks of qHP/qTP fullerene networks.
 
 The full analysis is in **report/endohedral_c60_network_feasibility_report.md**.
+The first corrected endohedral calculations (Li and Mg, isolated C60, qHP and qTP2) are in
+**pilot_2026-11-18/report/pilot_2026-11-18_results.md**.
 
 ## Key findings
 
@@ -22,6 +24,26 @@ The full analysis is in **report/endohedral_c60_network_feasibility_report.md**.
    endohedral minimum and a site preference over exohedral binding, then prove that the
    metal survives polymerisation, and only then build the network. The decisive
    comparison is endohedral versus exohedral energy at the same composition.
+
+## Pilot results (2026-11-18)
+
+Twelve calculations (Li and Mg inside isolated C60, qHP and qTP2, plus references) were
+run from off-centre starts with fixed spin states. Eleven finished; the qHP Mg run was
+cancelled and is not converged.
+
+- **The method fix works.** Li moves off-centre (1.50 A in the isolated cage, 1.33-1.43 A
+  in the networks), while Mg relaxes back to the centre (0.02 A isolated, 0.01 A in qTP2).
+  The original centre-start screen could not have seen this difference.
+- **The networks survive one metal per cage at 0 K.** 188 C-C bonds (qHP) and 94 (qTP2)
+  are preserved, no carbon changes coordination, the longest C-C bond is 1.62 A, and the
+  in-plane stress is below 0.5 kB.
+- **Energies (PBE+D3, versus bulk metal):** Li in qHP -0.020 eV per Li, Li in isolated
+  C60 +0.244, Li in qTP2 +0.261; Mg in isolated C60 +1.506, Mg in qTP2 +1.392. Li makes
+  qHP polymerisation more favourable by 0.53 eV per two cages.
+- **Caveats:** the bulk references include D3(BJ) and are not fully converged, no free-atom
+  references were calculated, the qHP reference is the older ring-opened model, the qHP Mg
+  run is missing, and the exohedral competitors have not yet been computed. See the pilot
+  report for the full discussion and next steps.
 
 ## Repository layout
 
@@ -54,6 +76,14 @@ The full analysis is in **report/endohedral_c60_network_feasibility_report.md**.
         make_tables.py                                  Markdown tables
     docs/
         32种金属C60中心初筛汇报.docx                      original Chinese source report
+    pilot_2026-11-18/
+        report/pilot_2026-11-18_results.md              pilot report (Li/Mg, C60/qHP/qTP2)
+        data/pilot_summary.csv / .json                  machine-readable pilot results
+        data/pilot_table.md                             generated run table
+        figures/fig1..fig3                              binding, positions, polymerisation
+        calculations/<case>/                            INCAR, POSCAR, KPOINTS, OSZICAR,
+                                                        CONTCAR, OUTCAR.gz, vasp.log
+        audit/, docs/, scripts/                         provenance, inputs, analysis scripts
 
 ## Reproducing the audit
 
@@ -71,8 +101,11 @@ report and the machine-readable data cannot drift apart.
 
 ## Data provenance and caveats
 
-- The calculations were delivered as the bundle "review_center32_final_20261116_102102_870377"
-  and are copied here unchanged, except that the original archive itself is not duplicated.
+- The 32-metal calculations were delivered as the bundle
+  "review_center32_final_20261116_102102_870377" and are copied here unchanged, except that
+  the original archive itself is not duplicated.
+- The pilot calculations were delivered as "pilot_all_for_senior_20261118_151225_993533".
+  OUTCAR files are gzip-compressed here; POTCAR files are excluded from both data sets.
 - POTCAR, WAVECAR and CHGCAR files are not included, following the original bundle policy
   (POTCAR licensing and file size).
 - The original bundle README notes that historical reuse flags must be reviewed, especially

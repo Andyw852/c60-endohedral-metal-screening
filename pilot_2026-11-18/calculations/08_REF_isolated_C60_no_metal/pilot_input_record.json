@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "INCAR": "3795efab02c1f9ffa0a6435434925311505ae725a1e0cca847d4c250b63dd815",
+    "POSCAR": "d926fdcbdaed06d703e72b65c0599e7bc8d6daf1565fc44764697a08fa398e77",
+    "POTCAR_SPEC": "12f37a8a84034d3e623d726fe10e5031f4df997ac13f4d5571b5a90c41fb84fe",
+    "KPOINTS": "ad04b77a54477da3ca33991f333e187a628e4aaf01d039d3f0e662dd1b1d45b7"
+  },
+  "datasets": [
+    {
+      "dataset": "C",
+      "title": "PAW_PBE C 08Apr2002",
+      "sha256": "253f7b50bb8d59471dbedb8285d89021f4a42ed1a2c5d38a03a736e69125dd95"
+    }
+  ]
+}

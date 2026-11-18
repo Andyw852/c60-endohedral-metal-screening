@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "INCAR": "cd7faaef880d11276ec472e7d1a3484c3aaeea5bea3cd306420cfeb33d3d572a",
+    "POSCAR": "b526094ce012b7c145998e870844638db958ac6e77aea4ba1195ccc7e643167e",
+    "POTCAR_SPEC": "443a98fdd8f794ab580d5a2331aaf18e3f336168c6141aa28906fc3e063dd7f9"
+  },
+  "datasets": [
+    {
+      "dataset": "Mg",
+      "title": "PAW_PBE Mg 13Apr2007",
+      "sha256": "a90315392b5cf46bd986ff2010bfd53a40dec98e36f8d1f6277412e9d0e81a9f"
+    }
+  ]
+}

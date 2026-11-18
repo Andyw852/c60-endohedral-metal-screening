@@ -1,0 +1,646 @@
+[
+  {
+    "case": "01_isolated_C60_Li_inside",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 655
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2713
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 31
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 391135
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 7013
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 2992868
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 50729
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 62330
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 159
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "02_isolated_C60_Mg_inside_0unpaired",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 665
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2723
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 31
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 425201
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 7013
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 4489750
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 79386
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 95552
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 169
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "03_isolated_C60_Mg_inside_2unpaired",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 665
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2723
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 31
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 425201
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 7013
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 1881809
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 31442
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 39236
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 169
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "04_qHP_network_Li_inside_cage",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 646
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 5219
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 391135
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 13723
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 23131550
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 105556
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 128922
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 163
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "05_qHP_network_Mg_inside_cage",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 646
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 5219
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 425201
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 13723
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 6642777
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 51151
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 58140
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 163
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "06_qTP2_network_Li_inside_cage",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 646
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2718
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 391135
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 7013
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 7035354
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 38168
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 49153
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 164
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "07_qTP2_network_Mg_inside_cage",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 646
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2718
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 425201
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 7013
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 8525298
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 54862
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 67482
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 687
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 164
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "08_REF_isolated_C60_no_metal",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 652
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2668
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 31
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 207211
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 2
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 6892
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 241758
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 3953
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 6081
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 529
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 162
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "09_REF_qHP_network_no_metal",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 637
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 5128
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 207211
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 2
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 13492
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 3432093
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 14550
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 19395
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 529
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 161
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "10_REF_qTP2_network_no_metal",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 637
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2668
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 207211
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 2
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 6892
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 2379484
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 13277
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 17928
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 529
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 162
+      }
+    ],
+    "missing": []
+  },
+  {
+    "case": "11_REF_Li_bulk_metal",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 524
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 241
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 183924
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 3
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 402
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 993450
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 1996
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 4543
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 448
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 154
+      }
+    ],
+    "missing": [
+      "KPOINTS"
+    ]
+  },
+  {
+    "case": "12_REF_Mg_bulk_metal",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 524
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 282
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 217990
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 3
+      },
+      {
+        "name": "run_pilot.slurm",
+        "bytes": 371
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 512
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 597464
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 1949
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 4317
+      },
+      {
+        "name": "pilot_input_record.json",
+        "bytes": 448
+      },
+      {
+        "name": ".pilot_submitted.json",
+        "bytes": 154
+      }
+    ],
+    "missing": [
+      "KPOINTS"
+    ]
+  }
+]
