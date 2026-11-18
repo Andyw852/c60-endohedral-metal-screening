@@ -1,5 +1,7 @@
 # Endohedral metals in C60 and qHP/qTP fullerene networks
 
+**Project status, goals and next steps (Chinese): [PROJECT_STATUS.md](PROJECT_STATUS.md)**
+
 This repository contains an independent audit of a 32-metal "endohedral metal in C60"
 screening campaign and a feasibility assessment for using endohedral M@C60 units as
 building blocks of qHP/qTP fullerene networks.

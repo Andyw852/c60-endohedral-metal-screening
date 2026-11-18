@@ -6,6 +6,15 @@ five reference calculations.
 
 The full analysis is in **report/pilot_2026-11-18_results.md**.
 
+> **Correction (2026-11-18, after review):** the qHP reference is **not** a ring-opened model.
+> Every carbon keeps three bonds within its own cage, and the 16 sp3 carbons each add one
+> intercage bond. The "two-coordinated" count came from intercage bonds to the periodic image
+> of the same cage along a (9.1 A). The low qHP polymerisation energy (-0.07 eV per cage) comes
+> from the isolated-C60 reference: without D3 the network is +1.60 eV per cage. The qHP results
+> stand; no rebuild is needed. Also, do not remove D3 from the bulk references only: every term
+> of an energy difference must use the same functional (see `scripts/d3_decomposition.py` for a
+> PBE-only column). Current status and next steps: [../PROJECT_STATUS.md](../PROJECT_STATUS.md).
+
 ## Key results
 
 1. **The method fix works.** With the metal started 1.0 A (isolated cage) or 0.8 A (networks)

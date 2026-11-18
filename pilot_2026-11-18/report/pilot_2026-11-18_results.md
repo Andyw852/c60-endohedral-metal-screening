@@ -4,6 +4,15 @@
 
 Version 1.0 — 18 November 2026
 
+> **Correction (2026-11-18, after review):** the qHP reference is **not** a ring-opened model.
+> Every carbon keeps three bonds within its own cage, and the 16 sp3 carbons each add one
+> intercage bond. The "two-coordinated" count came from intercage bonds to the periodic image
+> of the same cage along a (9.1 A). The low qHP polymerisation energy (-0.07 eV per cage) comes
+> from the isolated-C60 reference: without D3 the network is +1.60 eV per cage. The qHP results
+> stand; no rebuild is needed. Also, do not remove D3 from the bulk references only: every term
+> of an energy difference must use the same functional (see `scripts/d3_decomposition.py` for a
+> PBE-only column). Current status and next steps: [../../PROJECT_STATUS.md](../../PROJECT_STATUS.md).
+
 Related material: the audit of the earlier 32-metal screen and the network feasibility assessment are in
 [../../report/endohedral_c60_network_feasibility_report.md](../../report/endohedral_c60_network_feasibility_report.md).
 The input definitions are in [../docs/original_README.md](../docs/original_README.md).
