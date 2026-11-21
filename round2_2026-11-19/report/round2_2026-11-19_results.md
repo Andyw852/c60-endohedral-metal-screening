@@ -1,5 +1,12 @@
 # Round 2 results, 2026-11-19: qHP Mg spin states and the [Li@C60]+ calibration
 
+> **Note (review, 2026-11-21):** three caveats repeated below are outdated. (1) The qHP reference
+> is **not** ring-opened: every carbon keeps three bonds in its own cage (the "two-coordinated"
+> count came from bonds to the periodic image of the same cage). (2) Removing D3 from the bulk
+> references only would mix functionals; the PBE-only numbers are obtained from `Edisp` instead
+> (`pilot_2026-11-18/scripts/d3_decomposition.py`). (3) Free-atom references are not needed; bulk
+> metal is the relevant chemical potential. Status and next steps: [PROJECT_STATUS.md](../../PROJECT_STATUS.md).
+
 **Completing the two open branches of the 2026-11-18 pilot**
 
 Version 1.0 — 21 November 2026
