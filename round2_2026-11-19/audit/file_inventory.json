@@ -1,0 +1,185 @@
+[
+  {
+    "case": "13_qHP_network_Mg_inside_cage_restart_nonmagnetic",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 835
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 6983
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 425201
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 13723
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 4723018
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 29447
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 38504
+      },
+      {
+        "name": "round2_input_record.json",
+        "bytes": 678
+      },
+      {
+        "name": ".round2_submitted.json",
+        "bytes": 164
+      },
+      {
+        "name": "run.slurm",
+        "bytes": 358
+      }
+    ],
+    "missing": [
+      "run_pilot.slurm"
+    ],
+    "normal_termination": true,
+    "ionic_converged": true,
+    "EDIFF_not_reached_count": 0,
+    "final_E0_eV": -1073.17263396,
+    "final_Fmax_eV_A": 0.018787802452655288
+  },
+  {
+    "case": "14_qHP_network_Mg_inside_cage_restart_2unpaired",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 856
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 6981
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 34
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 425201
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 13723
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 8300135
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 39487
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 48965
+      },
+      {
+        "name": "round2_input_record.json",
+        "bytes": 678
+      },
+      {
+        "name": ".round2_submitted.json",
+        "bytes": 162
+      },
+      {
+        "name": "run.slurm",
+        "bytes": 358
+      }
+    ],
+    "missing": [
+      "run_pilot.slurm"
+    ],
+    "normal_termination": true,
+    "ionic_converged": true,
+    "EDIFF_not_reached_count": 0,
+    "final_E0_eV": -1073.10715524,
+    "final_Fmax_eV_A": 0.019208200462302556
+  },
+  {
+    "case": "15_isolated_C60_Li_cation_inside_check",
+    "files": [
+      {
+        "name": "INCAR",
+        "bytes": 672
+      },
+      {
+        "name": "POSCAR",
+        "bytes": 2726
+      },
+      {
+        "name": "KPOINTS",
+        "bytes": 31
+      },
+      {
+        "name": "POTCAR",
+        "bytes": 391135
+      },
+      {
+        "name": "POTCAR_SPEC",
+        "bytes": 5
+      },
+      {
+        "name": "CONTCAR",
+        "bytes": 7013
+      },
+      {
+        "name": "OUTCAR",
+        "bytes": 2275968
+      },
+      {
+        "name": "OSZICAR",
+        "bytes": 33477
+      },
+      {
+        "name": "vasp.log",
+        "bytes": 43514
+      },
+      {
+        "name": "round2_input_record.json",
+        "bytes": 674
+      },
+      {
+        "name": ".round2_submitted.json",
+        "bytes": 153
+      },
+      {
+        "name": "run.slurm",
+        "bytes": 358
+      }
+    ],
+    "missing": [
+      "run_pilot.slurm"
+    ],
+    "normal_termination": true,
+    "ionic_converged": true,
+    "EDIFF_not_reached_count": 0,
+    "final_E0_eV": -532.0872626,
+    "final_Fmax_eV_A": 0.017186839267299848
+  }
+]

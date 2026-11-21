@@ -20,7 +20,8 @@ The full analysis is in **report/pilot_2026-11-18_results.md**.
 4. **Energies (PBE+D3, relative to bulk metal):** Li in qHP -0.020 eV per Li; Li in
    isolated C60 +0.244; Li in qTP2 +0.261; Mg in isolated C60 +1.506; Mg in qTP2 +1.392.
    Li makes qHP polymerisation more favourable by 0.53 eV per two cages.
-5. **One run is missing:** case 05 (Mg in qHP) was cancelled and is not converged.
+5. **One run is missing:** case 05 (Mg in qHP) was cancelled and is not converged. It was
+   completed in round 2: see ../round2_2026-11-19/report/round2_2026-11-19_results.md.
 6. **Caveats:** the bulk references include D3(BJ) and are not fully relaxed; no free-atom
    references were calculated; the qHP reference is the older ring-opened model; the
    exohedral competitors have not been computed; everything is 0 K.

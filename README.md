@@ -6,7 +6,9 @@ building blocks of qHP/qTP fullerene networks.
 
 The full analysis is in **report/endohedral_c60_network_feasibility_report.md**.
 The first corrected endohedral calculations (Li and Mg, isolated C60, qHP and qTP2) are in
-**pilot_2026-11-18/report/pilot_2026-11-18_results.md**.
+**pilot_2026-11-18/report/pilot_2026-11-18_results.md**; the round-2 follow-up (qHP Mg
+spin states and the [Li@C60]+ calibration) is in
+**round2_2026-11-19/report/round2_2026-11-19_results.md**.
 
 ## Key findings
 
@@ -42,8 +44,27 @@ cancelled and is not converged.
   qHP polymerisation more favourable by 0.53 eV per two cages.
 - **Caveats:** the bulk references include D3(BJ) and are not fully converged, no free-atom
   references were calculated, the qHP reference is the older ring-opened model, the qHP Mg
-  run is missing, and the exohedral competitors have not yet been computed. See the pilot
-  report for the full discussion and next steps.
+  run was missing in the pilot (now completed in round 2), and the exohedral competitors
+  have not yet been computed. See the pilot report for the full discussion and next steps.
+
+## Round 2 results (2026-11-19)
+
+Three follow-up calculations completed the open branches of the pilot:
+
+- **The qHP Mg ground state is non-magnetic** (65.5 meV below the 2-uB state). Both Mg
+  atoms sit at their cage centres (0.014-0.022 A), so the 0.47 A partial displacement in
+  the cancelled pilot run was not converged.
+- **The [Li@C60]+ calibration passes:** closed-shell cation, Li off-centre by 1.479 A,
+  Li-C minimum 2.285 A, 90 intact C-C bonds - consistent with the neutral Li@C60 case and
+  with experiment.
+- **Updated binding energies vs bulk metal:** Li in qHP -0.020 eV; Li in isolated C60
+  +0.244; Li in qTP2 +0.261; Mg in qHP +1.428; Mg in qTP2 +1.392; Mg in isolated C60
+  +1.506. Li is about 1.45 eV per atom more favourable than Mg in qHP.
+- **Polymerisation effect:** Li in qHP -0.528 eV per two cages, Mg in qHP -0.157, Li in
+  qTP2 +0.017, Mg in qTP2 -0.114.
+- Caveats are unchanged: the bulk references include D3(BJ), there are no free-atom or
+  exohedral references, everything is at 0 K, and the cation energy is from a charged cell
+  and is not used as a binding energy.
 
 ## Repository layout
 
@@ -84,6 +105,14 @@ cancelled and is not converged.
         calculations/<case>/                            INCAR, POSCAR, KPOINTS, OSZICAR,
                                                         CONTCAR, OUTCAR.gz, vasp.log
         audit/, docs/, scripts/                         provenance, inputs, analysis scripts
+    round2_2026-11-19/
+        report/round2_2026-11-19_results.md             round-2 report (qHP Mg, Li+ check)
+        data/round2_summary.csv / .json                 machine-readable round-2 results
+        data/round2_table.md                            generated run table
+        figures/fig1..fig3                              binding, polymerisation, spin states
+        calculations/<case>/                            INCAR, POSCAR, KPOINTS, OSZICAR,
+                                                        CONTCAR, OUTCAR.gz
+        audit/, docs/, scripts/                         provenance, inputs, analysis scripts
 
 ## Reproducing the audit
 
@@ -104,8 +133,9 @@ report and the machine-readable data cannot drift apart.
 - The 32-metal calculations were delivered as the bundle
   "review_center32_final_20261116_102102_870377" and are copied here unchanged, except that
   the original archive itself is not duplicated.
-- The pilot calculations were delivered as "pilot_all_for_senior_20261118_151225_993533".
-  OUTCAR files are gzip-compressed here; POTCAR files are excluded from both data sets.
+- The pilot calculations were delivered as "pilot_all_for_senior_20261118_151225_993533"
+  and the round-2 calculations as "round2_all_for_senior_20261120_133446_670448".
+  OUTCAR files are gzip-compressed here; POTCAR files are excluded from all data sets.
 - POTCAR, WAVECAR and CHGCAR files are not included, following the original bundle policy
   (POTCAR licensing and file size).
 - The original bundle README notes that historical reuse flags must be reviewed, especially

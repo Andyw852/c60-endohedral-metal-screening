@@ -1,0 +1,11 @@
+{
+  "POTCAR_source": "/public/home/xinyuez2025/C60/single_cage_v2/C60_endohedral_metals_essential/1_pilot_RUN_FIRST/01_isolated_C60_Li_inside/POTCAR",
+  "POTCAR_sha256": "08b0184314f145d79db136cccd9fe5e3f9a322328235392e6f1cf3fd7524d976",
+  "inputs": {
+    "INCAR": "8c5aef85de5442301035b4d20e1ae6d5b50eaaa9cad76450626902e38f85d33d",
+    "POSCAR": "2a78d32d6fa495c083445102db0f6c2187671f652af555ae8a6cc8a255f20dcf",
+    "KPOINTS": "ad04b77a54477da3ca33991f333e187a628e4aaf01d039d3f0e662dd1b1d45b7",
+    "POTCAR_SPEC": "f709b91ed44b4d1a03c3b1b61e207ab2002af034107bd43d6efb5a4fd49d416c",
+    "run.slurm": "f0e00ed4792ca470409de2d068b86e6862550f021ec67cf18e84c20efe360ee7"
+  }
+}

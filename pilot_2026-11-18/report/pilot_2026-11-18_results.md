@@ -16,6 +16,12 @@ Twelve VASP calculations were run: Li and Mg inside an isolated C60, inside the 
 qTP2 network, plus the five reference calculations (C60, qHP, qTP2, bulk Li, bulk Mg). Eleven finished
 normally. The qHP Mg run (case 05) was cancelled and is not converged.
 
+**Update (2026-11-21).** The missing qHP Mg calculations and the [Li@C60]+ calibration have
+been completed in round 2: see
+[../../round2_2026-11-19/report/round2_2026-11-19_results.md](../../round2_2026-11-19/report/round2_2026-11-19_results.md).
+The qHP Mg ground state is non-magnetic, both Mg atoms sit at the cage centres, and Li+ is
+off-centre by 1.479 Å.
+
 The pilot answers the two questions that the earlier 32-metal screen could not answer:
 
 1. **The method fix works.** With an off-centre start, Li moves further off-centre to a displacement of
