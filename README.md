@@ -10,7 +10,9 @@ The full analysis is in **report/endohedral_c60_network_feasibility_report.md**.
 The first corrected endohedral calculations (Li and Mg, isolated C60, qHP and qTP2) are in
 **pilot_2026-11-18/report/pilot_2026-11-18_results.md**; the round-2 follow-up (qHP Mg
 spin states and the [Li@C60]+ calibration) is in
-**round2_2026-11-19/report/round2_2026-11-19_results.md**.
+**round2_2026-11-19/report/round2_2026-11-19_results.md**; the round-3a s-block campaign
+(Na, K, Rb, Cs, Ca, Sr, Ba, Be) is in
+**round3a_2026-11-23/report/round3a_2026-11-23_results.md**.
 
 ## Key findings
 
@@ -68,6 +70,27 @@ Three follow-up calculations completed the open branches of the pilot:
   exohedral references, everything is at 0 K, and the cation energy is from a charged cell
   and is not used as a binding energy.
 
+## Round 3a results (2026-11-23)
+
+The first full metal series, eight s-block metals (Na, K, Rb, Cs, Ca, Sr, Ba, Be; Cs qHP
+excluded as stalled), 35 completed calculations:
+
+- **All s-block metals except Be are stable inside C60 with respect to bulk metal.** qHP
+  binding per metal: Ba -1.60, Sr -1.22, Ca -0.95, K -0.74, Rb -0.62, Na -0.35 eV
+  (Li -0.02 in the pilot, Mg +1.43 in round 2, Be +3.45).
+- **qHP is the best host for every metal**, typically 0.1-0.6 eV stronger than qTP2.
+- **Endohedral metals stabilise qHP polymerisation:** Ca -1.37, Sr -1.24, Ba -1.08,
+  Na -0.52, K -0.34, Rb -0.31, Be -0.08 eV per two cages; qTP2 is nearly unaffected.
+- **Metal positions are non-monotonic:** Na and Cs nearly centred; K/Rb about 0.5 A off-centre;
+  Ca/Sr/Ba 0.7-1.25 A off-centre with short M-C distances (2.4-2.9 A); Be centred as a singlet.
+- **Spin states:** Be and Ca prefer the singlet; Sr and Ba prefer the 2-unpaired state by
+  4-28 meV.
+- **Cages and networks survive:** 90/188/94 bonds, longest bond 1.626 A, all metals inside,
+  in-plane stress below 0.1 kB.
+- **Caveats:** bulk references still include D3(BJ) and are contracted (binding conservative),
+  no free-atom or exohedral references, 0 K only, qHP reference is the ring-opened model,
+  Sr/Ba network magnetism not checked, Cs qHP missing.
+
 ## Repository layout
 
     report/
@@ -115,6 +138,15 @@ Three follow-up calculations completed the open branches of the pilot:
         calculations/<case>/                            INCAR, POSCAR, KPOINTS, OSZICAR,
                                                         CONTCAR, OUTCAR.gz
         audit/, docs/, scripts/                         provenance, inputs, analysis scripts
+    round3a_2026-11-23/
+        report/round3a_2026-11-23_results.md            round-3a s-block report
+        data/round3a_cases.csv / .json                  per-case results
+        data/round3a_per_metal.csv / .json              per-metal summary
+        data/round3a_per_metal.md, round3a_cases.md     generated tables
+        figures/fig1..fig4                              binding, polymerisation, positions, spins
+        calculations/<M>/<case>/                        INCAR, POSCAR, KPOINTS, OSZICAR,
+                                                        CONTCAR, OUTCAR.gz, vasp.log
+        audit/, docs/, scripts/                         provenance, POTCAR titles, analysis scripts
 
 ## Reproducing the audit
 
@@ -135,9 +167,10 @@ report and the machine-readable data cannot drift apart.
 - The 32-metal calculations were delivered as the bundle
   "review_center32_final_20261116_102102_870377" and are copied here unchanged, except that
   the original archive itself is not duplicated.
-- The pilot calculations were delivered as "pilot_all_for_senior_20261118_151225_993533"
-  and the round-2 calculations as "round2_all_for_senior_20261120_133446_670448".
-  OUTCAR files are gzip-compressed here; POTCAR files are excluded from all data sets.
+- The pilot calculations were delivered as "pilot_all_for_senior_20261118_151225_993533",
+  the round-2 calculations as "round2_all_for_senior_20261120_133446_670448", and the
+  round-3a calculations as "round3a_for_senior_20261123_100824_159761". OUTCAR files are
+  gzip-compressed here; POTCAR files are excluded from all data sets.
 - POTCAR, WAVECAR and CHGCAR files are not included, following the original bundle policy
   (POTCAR licensing and file size).
 - The original bundle README notes that historical reuse flags must be reviewed, especially
