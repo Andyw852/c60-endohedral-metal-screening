@@ -1,5 +1,10 @@
 # Round 3a results, 2026-11-23: s-block metals
 
+> **Note (review, 2026-11-23):** the caveats below about a "ring-opened" qHP reference, removing D3
+> from the bulk references only, and free-atom references are outdated; see
+> [PROJECT_STATUS.md](../PROJECT_STATUS.md) sections 4.3 and 5. For K, Rb, Cs, Ca, Sr and Ba the binding energies
+> become *more* negative without D3 (consistent PBE-only column: `scripts/d3_split_and_trends.py`).
+
 This folder contains the round-3a calculations for the eight s-block metals Na, K, Rb, Cs, Ca,
 Sr, Ba and Be: bulk references, isolated M@C60 spin states, and the qHP and qTP2 networks.
 The Cs qHP run was excluded from the delivered bundle (stalled); all other 35 cases are present,

@@ -1,5 +1,10 @@
 # Round 3a results, 2026-11-23: s-block metals in C60 and the qHP/qTP2 networks
 
+> **Note (review, 2026-11-23):** the caveats below about a "ring-opened" qHP reference, removing D3
+> from the bulk references only, and free-atom references are outdated; see
+> [PROJECT_STATUS.md](../../PROJECT_STATUS.md) sections 4.3 and 5. For K, Rb, Cs, Ca, Sr and Ba the binding energies
+> become *more* negative without D3 (consistent PBE-only column: `scripts/d3_split_and_trends.py`).
+
 **The first full metal series: Na, K, Rb, Cs, Ca, Sr, Ba and Be inside the isolated cage and the two 2D networks**
 
 Version 1.0 — 23 November 2026
